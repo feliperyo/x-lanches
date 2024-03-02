@@ -15,15 +15,22 @@
 <body>
 
     <header>
-        <button onclick=showAll(menuOptions)>Lanches</button>
-        <button onclick=priceDiscount()>Com Cupom</button>
-        <button onclick=sumPrice()>Quero Tudo</button>
-        <button onclick=veganLanches()>Veganos</button>
+
+        <div class="button-up">
+            <button onclick=showAll(menuOptions)>Lanches</button>
+            <button onclick=priceDiscount()>Com Cupom</button>
+        </div>
+        
+        <div class="button-down">
+            <button onclick=sumPrice()>Quero Tudo</button>
+            <button onclick=veganLanches()>Veganos</button>
+        </div>
+
     </header>
 
     <ul class="ul-sum"></ul>
     <ul class="ul-lanches"></ul>
-    
+
     <video src="./assets/video-bg-lanches.mp4" alt="bg-video" autoplay muted loop></video>
     <div class="mascara"></div>
 

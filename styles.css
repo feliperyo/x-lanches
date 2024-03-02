@@ -34,6 +34,22 @@ header {
     gap: 20px;
 }
 
+.button-up {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.button-down {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 button {
     cursor: pointer;
     background-color: #DC143C;
@@ -100,4 +116,45 @@ p {
 
 .item-price {
     color: rgb(238, 238, 72);
+}
+
+@media screen and (max-width: 500px) {
+
+    .mascara {
+        width: 200vw;
+        height: 200vh;
+    }
+
+    video {
+        left: -150%;
+    }
+
+    .header {
+        width: 100vw;
+        flex-direction: column;
+        gap: 0px;
+        margin: 10px 1px;
+    }
+
+    .button-up {
+        gap: 10px;
+        flex-direction: column;
+        margin: 10px 1px;
+    }
+
+    .button-down {
+        gap: 10px;
+        flex-direction: column;
+        margin: 10px 1px;
+    }
+
+    .ul-lanches {
+        display: grid;
+        grid-template-columns: 300px;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
 }
