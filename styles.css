@@ -118,6 +118,31 @@ p {
     color: rgb(238, 238, 72);
 }
 
+@media screen and (max-width: 1030px){
+
+    header {
+        margin: 50px 0 0 0;
+    }
+    
+    .button-up {
+        margin: 50px 0 0 0;
+    }
+    
+    .button-down {
+        margin: 50px 0 0 0;
+    }
+
+    .ul-lanches {
+        grid-template-columns: 300px 300px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    .ul-sum {
+        margin: 80px;
+    }
+}
+
 @media screen and (max-width: 500px) {
 
     .mascara {
@@ -149,12 +174,13 @@ p {
     }
 
     .ul-lanches {
-        display: grid;
         grid-template-columns: 300px;
-        gap: 20px;
-        justify-content: center;
         margin-top: 10px;
         margin-bottom: 50px;
+    }
+
+    .ul-sum {
+        margin: 30px;
     }
 
 }
