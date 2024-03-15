@@ -118,28 +118,20 @@ p {
     color: rgb(238, 238, 72);
 }
 
-@media screen and (max-width: 1030px){
+@media screen and (max-width: 1030px) {
 
     header {
-        margin: 50px 0 0 0;
-    }
-    
-    .button-up {
-        margin: 50px 0 0 0;
-    }
-    
-    .button-down {
         margin: 50px 0 0 0;
     }
 
     .ul-lanches {
         grid-template-columns: 300px 300px;
-        margin-top: 0px;
+        margin-top: -100px;
         margin-bottom: 50px;
     }
 
     .ul-sum {
-        margin: 80px;
+        margin: 30px 0 150px 0;
     }
 }
 
@@ -154,23 +146,23 @@ p {
         left: -150%;
     }
 
-    .header {
+    header {
         width: 100vw;
+        display: flex;
         flex-direction: column;
         gap: 0px;
-        margin: 10px 1px;
+        margin: 70px 0px 20px 0;
     }
 
-    .button-up {
-        gap: 10px;
-        flex-direction: column;
-        margin: 10px 1px;
+    button {
+        background-color: transparent;
+        color: #DC143C;
     }
 
-    .button-down {
-        gap: 10px;
-        flex-direction: column;
-        margin: 10px 1px;
+    button:hover {
+        background-color: transparent;
+        color: rgb(238, 238, 72);
+        box-shadow: none;
     }
 
     .ul-lanches {
