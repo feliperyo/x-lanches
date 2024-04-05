@@ -20,7 +20,7 @@ video {
 .mascara {
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.89) 15%, rgba(10, 12, 16, 0.65) 50%, rgba(10, 12, 16, 0.89) 85%);
     position: fixed;
     top: 0;
     z-index: -1;
